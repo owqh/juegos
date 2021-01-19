@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Estilos de la aplicacion -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Practicas de JavaScript y css</title>
-    
+
 </head>
+
 <body>
     <!-- Cabecera, menú -->
     <header class="header">
-        <h2 class="header__titulo">Juegos</h2>
+        <h2 class="header__title">Juegos</h2>
         <div class="header__menu">
 
         </div>
@@ -22,15 +24,38 @@
 
     <!-- Contenido -->
     <main class="main">
-        <p>Soy el main</p>
+        <div class="main__card">
+            <div class="main__option">
+                <h4 class="main__option--title">Piedra</h4>
+                <img src="img/roca.png" alt="Opcion piedra" class="main__option--img">
+                <br>
+                <button class="main__option--button">Piedra</button>
+            </div>
+
+            <div class="main__option">
+                <h4 class="main__option--title">Papel</h4>
+                <img src="img/papel.png" alt="Opcion piedra" class="main__option--img">
+                <br>
+                <button class="main__option--button">Papel</button>
+            </div>
+
+            <div class="main__option">
+                <h4 class="main__option--title">Tijera</h4>
+                <img src="img/tijeras.png" alt="Opcion piedra" class="main__option--img">
+                <br>
+                <button class="main__option--button" type="submit">TIJERA</button>
+            </div>
+        </div>
+
     </main>
 
     <!-- Pie de pagina -->
     <footer class="footer">
-        <p>All Rights reserved &copy;</p>
-        <p>Hecho con amor por Oscar Quintanilla 2021 </p>
+        <p>All Rights reserved &copy; 2021 || Hecho con amor por @Oscar Quintanilla </p>
+        
     </footer>
     <!-- Logica de la app -->
     <script src="js/logica.js"></script>
 </body>
+
 </html>
