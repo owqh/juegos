@@ -21,13 +21,13 @@ function jugar (opcionJugador){
             (maquina === tijera && opcionJugador === papel) || 
             (maquina === papel && opcionJugador === piedra) ){
             mensaje = "Gana la maquina con: "+maquina +" Opcion del jugador: "+opcionJugador;
-            return mensaje;
+            return console.log(mensaje);
         }else{
             mensaje = "Gana el jugador con: "+opcionJugador+ " Opcion de la maquina: "+maquina;
-            return mensaje;
+            return console.log(mensaje);
         }
     }else{
         mensaje = "Ohh! parece ser un empate";
-        return mensaje;
+        return console.log(mensaje);
     }
 };
